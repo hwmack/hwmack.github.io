@@ -20,7 +20,8 @@
     <body>
 
         <nav>
-            <ul>
+            <!-- eeeek, remove all this until a better time -->
+            <ul style="display:none">
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -37,6 +38,24 @@
                     <a href="#contact">Contact</a>
                 </li>
             </ul>
+
+            <!-- replacement links in the mean time -->
+
+            <ul>
+                <li>
+                    <a href="https://github.com/haydensmack">Github</a>
+                </li>
+                <li>
+                    <a href="https://gitlab.com/u/hayden.mack">Gitlab</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/hayden.mack.7">Facebook</a>
+                </li>
+                <li>
+                    <a href="mailto:hayden.mack.7@gmail.com">Email</a>
+                </li>
+            </ul>
+
         </nav>
 
         <div class="container demo" id="home">
@@ -52,7 +71,8 @@
            </div>
         </div>
 
-        <div id="main">
+        <!-- eeeek, remove all this until a better time -->
+        <div id="main" style="display:none">
             <section id="aboutme">
                 <h2>About Me</h2>
                 <p>
@@ -118,6 +138,7 @@
         <script src="scripts/EasePack.min.js"></script>
         <script src="scripts/demo.js"></script>
         <script>
+            /*
             var targetOffset = $("#aboutme").offset().top - 105;
 
             var $w = $(window).scroll(function(){
@@ -127,6 +148,7 @@
               $("nav").css({"background":"transparent"});
             }
             });
+            */
         </script>
     </body>
 </html>
